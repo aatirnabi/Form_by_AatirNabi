@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Health-Card Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+      <div class="header">
+      <h1>A COMPANY</h1>
+      <h2>(A group of Registered Societies & Trusts)</h2></div>
+      <fieldset><p>FAST HEALTH CARD REGISTRATION FORM</p></fieldset>
+      <h3>NON REFUNDABLE BENEFICIARY REGISTRATION FORM</h3>
+      <form action="Processform.html" method="get">
+      <table  width="100%" class="table1" >
+        <tr>
+          <td>
+            <label for="txtname" style="font-size: 23px;"> DETAILS OF THE HEAD OF FAMILY: </label>
+          </td>
+          <td>
+          <label for="txtfname"> First Name
+          <input
+            type="text"
+            name="fname"
+            id="txtfname"
+            required
+            placeholder="Type Name"
+          />
+        </label>
+      </td>
+      <td>
+        <label for="txtlname">Last Name
+          <input
+            type="text"
+            name="lname"
+            id="txtlname"
+            required
+            placeholder="Type Name"
+          />
+        </label>
+      </td>
+      <td rowspan="4" bgcolor="white">
+        <center>
+        <img src="https://thumbs.dreamstime.com/b/thin-line-black-camera-logo-like-upload-your-photo-thin-line-black-camera-logo-like-upload-your-photo-graphic-art-design-element-106033006.jpg" alt="uplaod image" srcset="" width="100" > <br>
+        <input type="file" name="img" id='fileupload'  />
+      </center>
+    </td>
+    </tr>
+    <tr>
+      <td>
+      <label for="txtparentage">
+         PARENTAGE:  <input type="text" name="parentage" id="txtparentage" required placeholder="Enter Full Name"> </label>
+      </td>
+      <td >
+        <label for="txtaddress">
+         ADDRESS: <input type="text" name="address" id="txtaddress" required placeholder="Enter Full Address"> </label> 
+      </td>
+      <td>
+        <label for="txtdistrict">
+       DISTRICT:  
+        <select name="district">
+            <option value="--select here--">--Select here--</option>
+            <option value="Srinagar">Srinagar</option>
+            <option value="Budgam">Budgam</option>
+            <option value="Kupwara">Kupwara</option>
+            <option value="Pulwama">Pulwama</option>
+            <option value="Ganderbal">Ganderbal</option>
+            <option value="Leh">Leh</option>
+            <option value="Kargil">Kargil</option>
+            <option value="Doda">Doda</option>
+            <option value="Udhampur">Udhampur</option>
+            <option value="Kishtwar">Kishtwar</option>
+        </select>
+        </label>
+      </td>
+    </tr>
+    <tr>
+        <td >
+        <label for="txtstate">
+       STATE/UT: 
+        <select name="state">
+            <option value="--select here--">--Select here--</option>
+            <option value="J&K">J&K</option>
+            <option value="Punjab">Punjab</option>
+            <option value="Haryana">Haryana</option>
+            <option value="Delhi">Delhi</option>
+            <option value="Rajasthan">Rajasthan</option>
+            <option value="Banglore">Banglore</option>
+            <option value="Hyderabad">Hyderabad</option>
+            <option value="Tamil Nadu">Tamil Nadu</option>
+            <option value="Goa">Goa</option>
+            <option value="Kerela">Kerela</option>
+            <option value="West Bengal">West Bengal</option>
+          </select>
+        </label>
+      </td>
+        <td>
+        <label for="txtnumber">
+         MOBILE NO: <input type="number" name="number" id="txtnumber" required placeholder="Enter Mobile Number"> </label> 
+      </td>
+        <td>
+        <label for="txtcategory">
+         CATEGORY: <input type="text" name="category" id="txtcategory" required placeholder="Enter Category"> </label>
+      </td>
+    </tr>
+    <tr>
+        <td>
+        <label for="mailid">
+        EMAIL ID:<input type="email" name="mail" id="mailid" required placeholder="Enter Mail id"> </label>
+      </td>
+      <td>
+        <label for="pincode">
+      PIN CODE: <input type="number" name="pin" id="pincode" required placeholder="Enter Pin Code" > </label>
+      </td>
+      <td>
+        <label for="familystrength">
+         FAMILY STRENGTH (M:F):  <input type="text" name="fstrength" id="familystrength" required placeholder="Example 2(MALE):2(FEMALE)" > </label>
+      </td>
+      </tr>
+      </table>
+      <br><br>
+        <table class="table2"  width="100%">
+            <tr style="color: white;"  >
+                <th>NAME OF FAMILY MEMBERS</th>
+                <th>RELATION</th>
+                <th>AGE/D.O.B</th>
+                <th>OCCUPATION</th>
+                <th>AADHAAR NUMBER</th>
+            </tr>
+            <tr  >
+                <td><input type="text" name="detail" id="txtdetail"></td>
+                <td><input type="text" name="detail" id="txtdetail"></td>
+                <td><input type="text" name="detail" id="txtdetail"></td>
+                <td><input type="text" name="detail" id="txtdetail"></td>
+                <td><input type="number" name="detail" id="txtdetail"></td>
+            </tr>
+            <tr  >
+              <td><input type="text" name="detail" id="txtdetail"></td>
+              <td><input type="text" name="detail" id="txtdetail"></td>
+              <td><input type="text" name="detail" id="txtdetail"></td>
+              <td><input type="text" name="detail" id="txtdetail"></td>
+              <td><input type="number" name="detail" id="txtdetail"></td>
+            </tr>
+            <tr  >
+              <td><input type="text" name="detail" id="txtdetail"></td>
+              <td><input type="text" name="detail" id="txtdetail"></td>
+              <td><input type="text" name="detail" id="txtdetail"></td>
+              <td><input type="text" name="detail" id="txtdetail"></td>
+              <td><input type="number" name="detail" id="txtdetail"></td>
+            </tr>
+            <tr  >
+              <td><input type="text" name="detail" id="txtdetail"></td>
+              <td><input type="text" name="detail" id="txtdetail"></td>
+              <td><input type="text" name="detail" id="txtdetail"></td>
+              <td><input type="text" name="detail" id="txtdetail"></td>
+              <td><input type="number" name="detail" id="txtdetail"></td>
+            </tr>
+            <tr >
+              <td><input type="text" name="detail" id="txtdetail"></td>
+              <td><input type="text" name="detail" id="txtdetail"></td>
+              <td><input type="text" name="detail" id="txtdetail"></td>
+              <td><input type="text" name="detail" id="txtdetail"></td>
+              <td><input type="number" name="detail" id="txtdetail"></td>
+            </tr>
+        </table>
+        <br><br>
+        <table  width="100%" class="table3">
+          <tr>
+          <th bgcolor="white">
+        <h4> <u> DECLARATION CONSENT:</h4> </u>
+      </th>
+      <th  bgcolor="white"><textarea name="thumb/sign" id="txtthumb" cols="30" rows="5"  placeholder="Please Use This Area"></textarea></th>
+    </tr>
+    <tr>
+      <th align="left" > 
+      <input type="checkbox" name="declaration" id="chkdeclaration"> <span style="color: white;">I hereby declare that I have read, understand and agree all the terms and conditions of FAST HEALTH HOSPITAL.</span> 
+    </th>
+    <th class="thumb" style="color: white;">
+      Thumb/Signaure of Family Head/Member: 
+    </th>
+  </tr>
+      </table>      <br><br>
+      <h5> Register Here</h5>
+      <center>
+      <input type="submit" value="REGISTER" required style="color: white" > 
+    </center>
+      </form>
+  </body>
+</html>
